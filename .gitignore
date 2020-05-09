@@ -1,3 +1,9 @@
 coverage/
 Gemfile.lock
 pkg/
+
+
+#Added by cargo
+
+/target
+Cargo.lock

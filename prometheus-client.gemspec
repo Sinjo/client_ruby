@@ -15,6 +15,8 @@ Gem::Specification.new do |s|
   s.files             = %w(README.md) + Dir.glob('{lib/**/*}')
   s.require_paths     = ['lib']
 
+  s.add_dependency 'rutie', '~> 0.0.4'
+
   s.add_development_dependency 'benchmark-ips'
   s.add_development_dependency 'concurrent-ruby'
 end

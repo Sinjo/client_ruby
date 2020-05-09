@@ -1,0 +1,9 @@
+[package]
+name = "prometheus_client_ruby_data_stores"
+version = "0.0.1"
+
+[dependencies]
+rutie = "0.7.0"
+
+[lib]
+crate-type = ["dylib"]
